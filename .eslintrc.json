@@ -9,7 +9,11 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": { "react/prop-types": "off", "no-console": "off" },
+  "rules": {
+    "react/prop-types": "off",
+    "no-console": "off",
+    "no-unused-vars": "off"
+  },
   "globals": {
     "document": false
   }
